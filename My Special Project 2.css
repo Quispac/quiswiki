@@ -2,3 +2,30 @@
               font-size: 30px ;
               font-weight: bold;
 }
+div ul{
+    border-style:groove;
+    border-width: 3px;
+    width: 400px;
+    height: 500px;
+    position: absolute;
+    left: 25px;
+    top: 600px;
+
+
+}
+
+table {
+
+    position: absolute;
+    left: 500px;
+    top: 650px;
+
+
+}
+
+p.CHEMİCAL-RESİSTANCE-TABLE {
+    position: absolute;
+    left: 550px;
+    
+
+}
