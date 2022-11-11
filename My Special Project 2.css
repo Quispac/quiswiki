@@ -1,13 +1,14 @@
 .chemical-element {
               font-size: 30px ;
               font-weight: bold;
+              
 }
 div ul{
     border-style:groove;
     border-width: 3px;
-    width: 400px;
-    height: 400px;
-    position: absolute;
+    width: 30%;
+    height: 50%;
+    margin:2% auto;
     left: 1%;
     top: 55%;
 
@@ -16,18 +17,25 @@ div ul{
 
 table {
 
-    position: absolute;
+    margin:0 auto;
 
     left: 50%;
-    top: 58%;
+    top: 57%;
 
 
 }
 
 p.CHEMİCAL-RESİSTANCE-TABLE {
-    position: absolute;
+    margin:0 auto;
     top: 50%;
     left: 55%;
     
 
+}
+
+
+p.contents {
+      font-size: 30px;   
+      font-weight: bold;   
+        
 }
