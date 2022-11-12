@@ -1,19 +1,24 @@
 .chemical-element {
               font-size: 30px ;
               font-weight: bold;
-              
+              text-align: left;
 }
 div ul{
     border-style:groove;
     border-width: 3px;
     width: 30%;
     height: 50%;
-    margin:2% auto;
+    margin:1% auto;
     left: 1%;
     top: 55%;
-
-
-}
+    font-weight:bold;
+    list-style-type: circle;
+    color:#165ed1;
+    list-style-type: none;
+    padding-left: 2%;
+    text-align: left;
+    
+ }
 
 table {
 
@@ -39,3 +44,7 @@ p.contents {
       font-weight: bold;   
         
 }
+
+
+
+
