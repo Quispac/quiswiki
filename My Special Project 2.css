@@ -1,3 +1,11 @@
+.body {
+    transform: scale(0.95);
+
+}
+
+
+
+
 .chemical-element {
               font-size: 30px ;
               font-weight: bold;
@@ -48,3 +56,12 @@ p.contents {
 
 
 
+.rabbit {
+
+    color: #fffffd;
+}
+
+::selection {
+    color: white;
+    background-color: #509055;
+    }
