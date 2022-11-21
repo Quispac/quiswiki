@@ -66,6 +66,21 @@ p.contents {
     background-color: #509055;
     }
 
-
-
-
+    * {
+        /* Reset browser's padding and margin */
+        margin:30;
+        padding: 30;
+        box-sizing: border-box; 
+      }
+      
+      body {
+        background: #ffffff;
+      }
+      
+      input[type=text] {
+        border: 2px solid green;
+        border-radius: 4px;
+      }
+      
+      
+      

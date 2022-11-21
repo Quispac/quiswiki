@@ -9,13 +9,23 @@
             <meta charset="utf-8"> 	
            	<link rel="stylesheet" href="My Special Project 2.css"
 			<meta name="author" content="Cengizhan Deveci">
-		    <meta name="description" content="Bu sayfa Kodlama ve Tasarım içindir"
+		    <meta name="description" content="Coding"
+
+			<script type="text/javascript" src="script.js" defer></script>
+			
         </head>
 
 
 
     <body class="body" bgcolor="#fffffd" text="#000000" transform: scale(0.9);> 
 		
+		<form name="f1" action="" 
+             onSubmit="if(this.t1.value!=null && this.t1.value!='') findString(this.t1.value);return false">
+             <input type="text" name=t1 value="" size=20>
+             <input type="submit" name=b1 value="Search">
+            
+        </form>                    
+			
 	
 	    <p> 
 
@@ -244,6 +254,8 @@
 <p>
 	<h5 class="rabbit">follow the white rabbit</h5>
 </p>
+
+
 
 
 </html>
