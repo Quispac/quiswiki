@@ -3,28 +3,72 @@
 
 
 <html lang="en">
-        <head>
+         <head>
 			<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" >
             <title>quiswiki</title>  	
             <meta charset="utf-8"> 	
            	<link rel="stylesheet" href="My Special Project 2.css"
 			<meta name="author" content="Cengizhan Deveci">
 		    <meta name="description" content="Coding"
+		 </head>
 
-			<script type="text/javascript" src="script.js" defer></script>
+		<head>
+
+			<script language="JavaScript">
+				
+				var TRange=null;
+				function findString (str) {
+				 if (parseInt(navigator.appVersion)<4) return;
+				 var strFound;
+				 if (window.find) {
+				
+				  
+				  strFound=self.find(str);
+				  if (strFound && self.getSelection && !self.getSelection().anchorNode) {
+				   strFound=self.find(str)
+				  }
+				  if (!strFound) {
+				   strFound=self.find(str,0,1)
+				   while (self.find(str,0,1)) continue
+				  }
+				 }
+				 else if (navigator.appName.indexOf("Microsoft")!=-1) {
+				
 			
-        </head>
+				
+				  if (TRange!=null) {
+				   TRange.collapse(false)
+				   strFound=TRange.findText(str)
+				   if (strFound) TRange.select()
+				  }
+				  if (TRange==null || strFound==0) {
+				   TRange=self.document.body.createTextRange()
+				   strFound=TRange.findText(str)
+				   if (strFound) TRange.select()
+				  }
+				 }
+				 else if (navigator.appName=="Opera") {
+				  alert ("Opera browsers not supported, sorry...")
+				  return;
+				 }
+				 if (!strFound) alert ("String '"+str+"' not found!")
+				 return;
+				}
+				
+			</script>
 
+		</head>
 
 
     <body class="body" bgcolor="#fffffd" text="#000000" transform: scale(0.9);> 
 		
+		
 		<form name="f1" action="" 
-             onSubmit="if(this.t1.value!=null && this.t1.value!='') findString(this.t1.value);return false">
-             <input type="text" name=t1 value="" size=20>
-             <input type="submit" name=b1 value="Search">
-            
-        </form>                    
+                        onSubmit="if(this.t1.value!=null && this.t1.value!='') findString(this.t1.value);return false">
+                        <input type="text" name=t1 value="" size=20>
+                        <input type="submit" name=b1 value="Search">
+		</form>
+		                
 			
 	
 	    <p> 
@@ -173,7 +217,7 @@
 				
 				  <div>  
 
-					     <img src="Periodic Table of The Elementss.png" width="500" >
+					     <img src="Periodic Table of The Elementss.png" width="600" >
 				
 				  </div>
 
@@ -239,14 +283,14 @@
 <p align="justify"> 
 
 	
-		   <h4><b><u>Hii!</u></b> <br>
+		   <h5><b><u>Hii!</u></b> <br>
 		   My name is <b>Cengizhan Deveci.</b> <br>
 		   Im a student at University of Ankara <br>
 		   And <a href="https://semihkartal.com.tr/">This site is my senior's site </a>
 	       <br>
-		   This site is my first site that i created with html and css codes. <br>
+		   This site is my first site that i created with html, css and js codes. <br>
 		   Thanks for visiting..
-		   </h4> 	   
+		   </h5> 	   
 		   
 </p>
 
