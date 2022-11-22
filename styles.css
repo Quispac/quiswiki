@@ -67,20 +67,25 @@ p.contents {
     }
 
     * {
-        /* Reset browser's padding and margin */
-        margin:30;
-        padding: 30;
+        
+        margin: 70;;
+        padding: 50;
         box-sizing: border-box; 
       }
       
       body {
-        background: #ffffff;
+        background: #fffffd;
       }
       
       input[type=text] {
-        border: 2px solid #509055;
-        border-radius: 4px;
+        border: 4px solid #509055;
+        border-radius: 10px;
       }
       
-      
-      
+
+      p.wakanda {
+        font-size:small
+        
+
+        
+      }
