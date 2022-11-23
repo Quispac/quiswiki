@@ -105,9 +105,8 @@
 
     <body class="body" bgcolor="#fffffd" text="#000000" transform: scale(1);> 
 		
-		<div class="mode">
-			Dark mode :              
-			<span class="change">OFF</span>
+		<div class="mode">              
+			<span class="change">🌑</span>
 		</div>
 		 
 		 
@@ -115,10 +114,10 @@
 			$( ".change" ).on("click", function() {
 				if( $( "body" ).hasClass( "dark" )) {
 					$( "body" ).removeClass( "dark" );
-					$( ".change" ).text( "OFF" );
+					$( ".change" ).text( "🌑" );
 				} else {
 					$( "body" ).addClass( "dark" );
-					$( ".change" ).text( "ON" );
+					$( ".change" ).text( "☀️" );
 				}
 			});
 		</script>
