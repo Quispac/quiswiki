@@ -85,7 +85,7 @@
 	.change {
 		cursor: pointer;
 		border: 1px solid #555;
-		border-radius: 40%;
+		border-radius: 40px;
 		width: 20px;
 		text-align: center;
 		padding: 5px;
@@ -93,7 +93,7 @@
 	}
 	.dark{
 		background-color: #222;
-		color: #e6e6e6;
+		color: #fffffd;
 	}
 </style>
 
@@ -130,8 +130,8 @@
 		
 		<form align="right" name="f1" action="" 
                         onSubmit="if(this.t1.value!=null && this.t1.value!='') findString(this.t1.value);return false">
-                        <input type="text" name=t1 value="" size=20>
-                        <input type="submit" name=b1 value="Search">
+                        <input class="bms" type="text" name=t1 value="" size=35>
+                        <input class="ams" type="submit" name=b1 value="Search" >
 		</form>
 		                
 			

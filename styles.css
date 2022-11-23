@@ -1,6 +1,5 @@
-.body {
-    
-
+.body{
+  background: #fffffd;
 }
 
 
@@ -93,9 +92,18 @@ p.contents {
      
     .imece{
 
-       width: 35%;
-       height: 35%;
+       width: 40%;
+       height: 40%;
     }
       
      
-     
+     .ams {
+         border-color: #509055;
+      border-radius: 10px;
+     }
+
+
+  .bms{
+    border-color: #509055;
+    
+  }
