@@ -59,9 +59,74 @@
 			</script>
 
 		</head>
+           
 
-    <body class="body" bgcolor="#fffffd" text="#000000" transform: scale(0.9);> 
+		<head>
+
+			<script src=
+			"https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js">
+				</script>
+
+<style>
+	body{
+	padding:10% 3% 10% 3%;
+	text-align:center;
+	}
+	img{
+		height:140px;
+			width:140px;
+	}
+	h1{
+	color: #509055;
+	}
+	.mode {
+		float:right;
+	}
+	.change {
+		cursor: pointer;
+		border: 1px solid #555;
+		border-radius: 40%;
+		width: 20px;
+		text-align: center;
+		padding: 5px;
+		margin-left: 8px;
+	}
+	.dark{
+		background-color: #222;
+		color: #e6e6e6;
+	}
+</style>
+
+
+
+		</head>
+
+
+
+    <body class="body" bgcolor="#fffffd" text="#000000" transform: scale(1);> 
 		
+		<div class="mode">
+			Dark mode :              
+			<span class="change">OFF</span>
+		</div>
+		 
+		 
+		<script>
+			$( ".change" ).on("click", function() {
+				if( $( "body" ).hasClass( "dark" )) {
+					$( "body" ).removeClass( "dark" );
+					$( ".change" ).text( "OFF" );
+				} else {
+					$( "body" ).addClass( "dark" );
+					$( ".change" ).text( "ON" );
+				}
+			});
+		</script>
+
+		<br>
+		<br>
+		<br>
+		<br>
 		
 		<form align="right" name="f1" action="" 
                         onSubmit="if(this.t1.value!=null && this.t1.value!='') findString(this.t1.value);return false">
@@ -75,6 +140,7 @@
 
 				<h2 class="chemical-element"><strong><i>chemical element</i></strong></h2>  
 			    <hr width="30%" color="#509055" size="3" align="left"> 
+			     
 
 		</p>
 		   
@@ -120,50 +186,51 @@
 	
 	<div>
 		<p align="center" class="contents">Contents</p> 
+		<hr width="20%" color="#509055" size="3" align="center">
 	                 <ul>
-		                     <li><font color="#000000">1.</font>	Description</li>
-							    <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font weight="bold"color="#000000">1.1</font>   Atomic Number</li>
-							    <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#000000">1.2</font>	Isotopes</li>
-							    <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#000000">1.3</font>	Isotopic mass and atomic mass</li>
-							    <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#000000">1.4</font>	Chemically pure and isotopically pure</li>
-							    <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#000000">1.5</font>	Allotropes</li>
-							    <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#000000">1.6</font>	Properties</li>
-							            <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#000000">1.6.1</font>	General properties</li>
-										<li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#000000">1.6.2</font> States of matter</li>
-										<li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#000000">1.6.3</font>	Melting and boiling points</li>
-										<li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#000000">1.6.4</font>	Densities</li>
-										<li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#000000">1.6.5</font>	Crystal structures</li>
-										<li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#000000">1.6.6</font>	Occurrence and origin on Earth</li>  
-						        <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#000000">1.7</font>	Periodic table</li>	
+		                     <li><font >1.</font>	Description</li>
+							    <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font weight="bold">1.1</font>   Atomic Number</li>
+							    <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font >1.2</font>	Isotopes</li>
+							    <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font >1.3</font>	Isotopic mass and atomic mass</li>
+							    <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font >1.4</font>	Chemically pure and isotopically pure</li>
+							    <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font >1.5</font>	Allotropes</li>
+							    <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font >1.6</font>	Properties</li>
+							            <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font >1.6.1</font>	General properties</li>
+										<li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font >1.6.2</font> States of matter</li>
+										<li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font >1.6.3</font>	Melting and boiling points</li>
+										<li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font >1.6.4</font>	Densities</li>
+										<li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font >1.6.5</font>	Crystal structures</li>
+										<li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font >1.6.6</font>	Occurrence and origin on Earth</li>  
+						        <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font >1.7</font>	Periodic table</li>	
 								
 								
-		                     <li><font color="#000000">2.</font>	Nomenclature and symbols</li>
-							        <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#000000">2.1</font>	Atomic numbers</li>
-							        <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#000000">2.2</font>	Element names</li>
-							        <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#000000">2.3</font>	Chemical symbols</li>
-							             <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#000000">2.3.1</font>	Specific chemical elements</li>
-							             <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#000000">2.3.2</font>	General chemical symbols</li>
-							             <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#000000">2.3.3</font>	Isotope symbols</li>
+		                     <li><font >2.</font>	Nomenclature and symbols</li>
+							        <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font >2.1</font>	Atomic numbers</li>
+							        <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font >2.2</font>	Element names</li>
+							        <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font >2.3</font>	Chemical symbols</li>
+							             <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font >2.3.1</font>	Specific chemical elements</li>
+							             <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font >2.3.2</font>	General chemical symbols</li>
+							             <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font >2.3.3</font>	Isotope symbols</li>
 
 
-		                     <li><font color="#000000">3.</font>	Origin of the elements</li>
-		                     <li><font color="#000000">4.</font>	Abundance</li>
+		                     <li><font >3.</font>	Origin of the elements</li>
+		                     <li><font >4.</font>	Abundance</li>
 
-		                     <li><font color="#000000">5.</font>	History</li>
-							       <li>&nbsp;&nbsp;&nbsp;&nbsp;<font color="#000000">5.1</font>	Evolving definitions</li>
-								            <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#000000">5.1.1</font>	Classical definitions</li>
-								            <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#000000">5.1.2</font>	Chemical definitions</li>
-								            <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#000000">5.1.3</font>	Atomic definitions</li>
+		                     <li><font >5.</font>	History</li>
+							       <li>&nbsp;&nbsp;&nbsp;&nbsp;<font >5.1</font>	Evolving definitions</li>
+								            <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font >5.1.1</font>	Classical definitions</li>
+								            <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font >5.1.2</font>	Chemical definitions</li>
+								            <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font >5.1.3</font>	Atomic definitions</li>
 							      
-								   <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#000000">5.2</font>	Discovery and recognition of various elements</li>
-							       <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#000000">5.3</font>	Recently discovered elements</li>
+								   <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font >5.2</font>	Discovery and recognition of various elements</li>
+							       <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font >5.3</font>	Recently discovered elements</li>
 
 
-		                     <li><font color="#000000">6.</font>	List of the 118 known chemical elements</li>
-		                     <li><font color="#000000">7.</font>	See also</li>
-		                     <li><font color="#000000">8.</font> References</li>                                 
-		                     <li><font color="#000000">9.</font>	Further reading</li>
-		                     <li><font color="#000000">10.</font>	External links</li>                           
+		                     <li><font >6.</font>	List of the 118 known chemical elements</li>
+		                     <li><font >7.</font>	See also</li>
+		                     <li><font >8.</font> References</li>                                 
+		                     <li><font >9.</font>	Further reading</li>
+		                     <li><font >10.</font>	External links</li>                           
 		                                                                              
 
                      </ul>                           
@@ -175,6 +242,7 @@
 
 
 	<h2><p align="center"class="CHEMİCAL-RESİSTANCE-TABLE">Description</p> </h2>
+	<hr width="20%" color="#509055" size="3" align="center">
 	The lightest chemical elements are hydrogen and helium, both created by Big Bang nucleosynthesis during the first 20 minutes of the universe[2] in a ratio of around 3:1 by mass (or 12:1 by number of atoms),
 	[3][4] along with tiny traces of the next two elements, 
 	lithium and beryllium. Almost all other elements found in nature were made by various natural methods of nucleosynthesis.[5] On Earth, small amounts of new atoms are naturally produced in nucleogenic reactions, 
@@ -203,6 +271,7 @@
 	<br>
 
 	<h2><p align="center"class="CHEMİCAL-RESİSTANCE-TABLE">Atomic number</p> </h2>
+	<hr width="20%" color="#509055" size="3" align="center">
 	Main article: Atomic number
 	The atomic number of an element is equal to the number of protons in each atom, and defines the element.[14] For example, all carbon atoms contain 6 protons in their atomic nucleus; 
 	so the atomic number of carbon is 6.[15] Carbon atoms may have different numbers of neutrons; atoms of the same element having different numbers of neutrons are known as isotopes of the element.[16]
@@ -213,6 +282,7 @@
 	The symbol for atomic number is Z.
 	
 	<h2><p align="center"class="CHEMİCAL-RESİSTANCE-TABLE">Isotopes</p> </h2>
+	<hr width="20%" color="#509055" size="3" align="center">
 	Main articles: Isotope, Stable isotope ratio, and List of nuclides
 	Isotopes are atoms of the same element (that is, with the same number of protons in their atomic nucleus), but having different numbers of neutrons. 
 	Thus, for example, there are three main isotopes of carbon. All carbon atoms have 6 protons in the nucleus, but they can have either 6, 7, or 8 neutrons. 
@@ -229,6 +299,7 @@
 	The largest number of stable isotopes that occur for a single element is 10 (for tin, element 50).
 	
 	<h2><p align="center"class="CHEMİCAL-RESİSTANCE-TABLE">Isotopic mass and atomic mas</p> </h2>
+	<hr width="20%" color="#509055" size="3" align="center">
 	Main articles: atomic mass and relative atomic mass
 	The mass number of an element, A, is the number of nucleons (protons and neutrons) in the atomic nucleus. 
 	Different isotopes of a given element are distinguished by their mass numbers, which are conventionally written as a superscript on the left hand side of the atomic symbol (e.g. 238U). The mass number is always a whole number and has units of "nucleons".
@@ -246,12 +317,14 @@
 	 it is due to this averaging effect, as significant amounts of more than one isotope are naturally present in a sample of that element.
 	
 	 <h2><p align="center"class="CHEMİCAL-RESİSTANCE-TABLE">Chemically pure and isotopically pure</p> </h2>
+	 <hr width="20%" color="#509055" size="3" align="center">
 	Chemists and nuclear scientists have different definitions of a pure element. In chemistry, a pure element means a substance whose atoms all (or in practice almost all) have the same atomic number, 
 	or number of protons. Nuclear scientists, however, define a pure element as one that consists of only one stable isotope.[17]
 	For example, a copper wire is 99.99% chemically pure if 99.99% of its atoms are copper, with 29 protons each. However it is not isotopically pure since ordinary copper consists of two stable isotopes,
 	 69% 63Cu and 31% 65Cu, with different numbers of neutrons. However, a pure gold ingot would be both chemically and isotopically pure, since ordinary gold consists only of one isotope, 197Au.
 	
 	 <h2><p align="center"class="CHEMİCAL-RESİSTANCE-TABLE">Allotropes</p> </h2>
+	 <hr width="20%" color="#509055" size="3" align="center">
 	Main article: Allotropy
 	Atoms of chemically pure elements may bond to each other chemically in more than one way, allowing the pure element to exist in multiple chemical structures (spatial arrangements of atoms), known as allotropes, 
 	which differ in their properties. For example, carbon can be found as diamond, which has a tetrahedral structure around each carbon atom; graphite, which has layers of carbon atoms with a hexagonal structure stacked on top of each other; 
@@ -262,10 +335,12 @@
 	For example, the reference state for carbon is graphite, because the structure of graphite is more stable than that of the other allotropes.
 	
 	<h2><p align="center"class="CHEMİCAL-RESİSTANCE-TABLE">Properties</p> </h2>
+	<hr width="20%" color="#509055" size="3" align="center">
 	Several kinds of descriptive categorizations can be applied broadly to the elements, including consideration of their general physical and chemical properties, their states of matter under familiar conditions, 
 	their melting and boiling points, their densities, their crystal structures as solids, and their origins.
 	
 	 <h2><p align="center"class="CHEMİCAL-RESİSTANCE-TABLE">General properties</p> </h2>
+	 <hr width="20%" color="#509055" size="3" align="center">
 	Several terms are commonly used to characterize the general physical and chemical properties of the chemical elements. A first distinction is between metals, which readily conduct electricity, nonmetals, which do not, 
 	and a small group, (the metalloids), having intermediate properties and often behaving as semiconductors.
 	A more refined classification is often shown in colored presentations of the periodic table. This system restricts the terms "metal" and "nonmetal" to only certain of the more broadly defined metals and nonmetals, 
@@ -275,16 +350,19 @@
 	the reactive nonmetals and the noble gases are nonmetals viewed in the broader sense. In some presentations, the halogens are not distinguished, with astatine identified as a metalloid and the others identified as nonmetals.
 	
 	<h2><p align="center"class="CHEMİCAL-RESİSTANCE-TABLE">States of matter</p> </h2>
+	<hr width="20%" color="#509055" size="3" align="center">
 	Another commonly used basic distinction among the elements is their state of matter (phase), whether solid, liquid, or gas, at a selected standard temperature and pressure (STP).
 	 Most of the elements are solids at conventional temperatures and atmospheric pressure, while several are gases. Only bromine and mercury are liquids at 0 degrees Celsius (32 degrees Fahrenheit) and normal atmospheric pressure;
 	 caesium and gallium are solids at that temperature, but melt at 28.4 °C (83.2 °F) and 29.8 °C (85.6 °F), respectively.
 	
 	<h2><p align="center"class="CHEMİCAL-RESİSTANCE-TABLE">Melting and boiling points</p> </h2>
+	<hr width="20%" color="#509055" size="3" align="center">
 	Melting and boiling points, typically expressed in degrees Celsius at a pressure of one atmosphere, are commonly used in characterizing the various elements.
 	 While known for most elements, either or both of these measurements is still undetermined for some of the radioactive elements available in only tiny quantities.
 	 Since helium remains a liquid even at absolute zero at atmospheric pressure, it has only a boiling point, and not a melting point, in conventional presentations.
 	
 	<h2><p align="center"class="CHEMİCAL-RESİSTANCE-TABLE">Densities</p> </h2>
+	<hr width="20%" color="#509055" size="3" align="center">
 	Main article: Densities of the elements (data page)
 	The density at selected standard temperature and pressure (STP) is frequently used in characterizing the elements. Density is often expressed in grams per cubic centimeter (g/cm3).
 	 Since several elements are gases at commonly encountered temperatures, their densities are usually stated for their gaseous forms; when liquefied or solidified, the gaseous elements have densities similar to those of the other elements.
@@ -292,11 +370,13 @@
 	 For example, the three familiar allotropes of carbon (amorphous carbon, graphite, and diamond) have densities of 1.8–2.1, 2.267, and 3.515 g/cm3, respectively.
 	
 	 <h2><p align="center"class="CHEMİCAL-RESİSTANCE-TABLE">Crystal structures</p> </h2>
+	 <hr width="20%" color="#509055" size="3" align="center">
 	Main article: Crystal structure
 	The elements studied to date as solid samples have eight kinds of crystal structures: cubic, body-centered cubic, face-centered cubic, hexagonal, monoclinic, 
 	orthorhombic, rhombohedral, and tetragonal. For some of the synthetically produced transuranic elements, available samples have been too small to determine crystal structures.
 	
 	<h2><p align="center"class="CHEMİCAL-RESİSTANCE-TABLE">Occurrence and origin on Earth</p> </h2>
+	<hr width="20%" color="#509055" size="3" align="center">
 	Main article: Abundance of elements in Earth's crust
 	Chemical elements may also be categorized by their origin on Earth, with the first 94 considered naturally occurring, while those with atomic numbers beyond 94 have only been produced artificially as the synthetic products of man-made nuclear reactions.
 	Of the 94 naturally occurring elements, 83 are considered primordial and either stable or weakly radioactive. 
@@ -318,23 +398,27 @@
 	          <body align="center">
 
 				<h2><p align="center">Periodic Table of The Chemical Elements</p> </h2>
+				<hr width="30%" color="#509055" size="3" align="center">
 				
 				  <div>  
 
-					     <img src="Periodic Table of The Elementss.png" width="600" >
+					     <img src="Periodic Table of The Elementss.png" class="imece"  >
 				
 				  </div>
 
 		            
-		      </body><br> 
+		      </body>
+			  <br> 
 <h4><p align="center">References:Wikipedia</p></h4>
 <h2><p align="center"class="CHEMİCAL-RESİSTANCE-TABLE">Chemical Resistance Table</p> </h2>
+<hr width="20%" color="#509055" size="3" align="center">
+<br>
 	
-<table border="5" width="500" height="50" bordercolor="#000000" bgcolor="509055"
+<table border="1" width="500" height="50" border bgcolor="509055"
 align="center"> 
  
 		   
-		<body bgcolor="white" text="fffff2">
+		<body  bgcolor="white" text="000000">
 				<tr> 
 				   <th>Chemical</th>
 				   <th>%Conc.</th>

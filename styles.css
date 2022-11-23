@@ -1,5 +1,5 @@
 .body {
-    transform: scale(0.95);
+    
 
 }
 
@@ -21,7 +21,6 @@ div ul{
     top: 55%;
     font-weight:bold;
     list-style-type: circle;
-    color:#155bcb;
     list-style-type: none;
     padding-left: 2%;
     text-align: left;
@@ -34,7 +33,7 @@ table {
 
     left: 50%;
     top: 57%;
-
+    color: black;
 
 }
 
@@ -89,3 +88,14 @@ p.contents {
 
         
       }
+
+
+     
+    .imece{
+
+       width: 35%;
+       height: 35%;
+    }
+      
+     
+     
