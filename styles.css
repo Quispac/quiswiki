@@ -60,7 +60,7 @@ p.contents {
 }
 
 ::selection {
-    color: white;
+    color: #fffffd;
     background-color: #509055;
     }
 
@@ -78,6 +78,7 @@ p.contents {
       input[type=text] {
         border: 3px solid #509055;
         border-radius: 20px;
+        padding-bottom: 0.8%;
       }
       
 
@@ -109,10 +110,11 @@ p.contents {
     border-color: #509055;
     padding: 5px;
     
+    
   }
   
   body{
-    padding:3% 5% 5% 4%;
+    padding:4% 5% 5% 4%;
     text-align:center;
     
     }
@@ -129,16 +131,19 @@ p.contents {
     .change {
       cursor: pointer;
       border: 1px solid #555;
-      border-radius: 40px;
+      border-radius: 70px;
       width: 20px;
       text-align: center;
-      padding: 14px;
+      padding: 15px;
       margin-left: 8px;
+      padding-bottom: 15px;
+      padding-top: 15px;
       
     }
     .dark{
       background-color: #222;
       color: #fffffd;
+      
     }
 
     
