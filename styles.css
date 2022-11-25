@@ -78,7 +78,7 @@ p.contents {
       input[type=text] {
         border: 3px solid #509055;
         border-radius: 20px;
-        padding-bottom: 0.8%;
+        padding-bottom: 0.3%;
       }
       
 
@@ -101,14 +101,16 @@ p.contents {
      .ams {
          border-color: #509055;
       border-radius: 20px;
-      padding: 6px;
+      padding: 0.3%;
+      
       
      }
 
 
   .bms{
     border-color: #509055;
-    padding: 5px;
+    
+    
     
     
   }
@@ -130,14 +132,15 @@ p.contents {
     }
     .change {
       cursor: pointer;
-      border: 1px solid #555;
-      border-radius: 70px;
+      border: 1.5px solid #25632b;
+      border-radius: 60%;
       width: 20px;
       text-align: center;
-      padding: 15px;
-      margin-left: 8px;
-      padding-bottom: 15px;
-      padding-top: 15px;
+      padding: 50%;
+      margin-left: 10px;
+      
+     
+      
       
     }
     .dark{
