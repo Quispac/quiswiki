@@ -76,7 +76,7 @@ p.contents {
       }
       
       input[type=text] {
-        border: 4px solid #509055;
+        border: 3px solid #509055;
         border-radius: 20px;
       }
       
@@ -99,11 +99,46 @@ p.contents {
      
      .ams {
          border-color: #509055;
-      border-radius: 10px;
+      border-radius: 20px;
+      padding: 6px;
+      
      }
 
 
   .bms{
     border-color: #509055;
+    padding: 5px;
     
   }
+  
+  body{
+    padding:3% 5% 5% 4%;
+    text-align:center;
+    
+    }
+    img{
+      height:140px;
+        width:140px;
+    }
+    h1{
+    color: #509055;
+    }
+    .mode {
+      float:right;
+    }
+    .change {
+      cursor: pointer;
+      border: 1px solid #555;
+      border-radius: 40px;
+      width: 20px;
+      text-align: center;
+      padding: 14px;
+      margin-left: 8px;
+      
+    }
+    .dark{
+      background-color: #222;
+      color: #fffffd;
+    }
+
+    
