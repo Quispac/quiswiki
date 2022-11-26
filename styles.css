@@ -1,8 +1,8 @@
 .body{
   background: #fffffd;
+  padding: 3% 4% 3% 4%;
+  text-align: center;
 }
-
-
 
 
 .chemical-element {
@@ -33,6 +33,7 @@ table {
     left: 50%;
     top: 57%;
     color: black;
+    border-color: #222;
 
 }
 
@@ -40,6 +41,7 @@ p.CHEMİCAL-RESİSTANCE-TABLE {
     margin:0 auto;
     top: 50%;
     left: 55%;
+    
     
 
 }
@@ -50,8 +52,6 @@ p.contents {
       font-weight: bold;   
         
 }
-
-
 
 
 .rabbit {
@@ -84,7 +84,6 @@ p.contents {
 
       p.wakanda {
         font-size:small
-        
 
         
       }
@@ -92,7 +91,7 @@ p.contents {
 
      
     .imece{
-
+     
        width: 40%;
        height: 40%;
     }
@@ -102,51 +101,13 @@ p.contents {
          border-color: #509055;
       border-radius: 20px;
       padding: 0.3%;
-      
-      
+
      }
 
 
   .bms{
     border-color: #509055;
-    
-    
-    
-    
-  }
-  
-  body{
-    padding:4% 5% 5% 4%;
-    text-align:center;
-    
-    }
-    img{
-      height:140px;
-        width:140px;
-    }
-    h1{
-    color: #509055;
-    }
-    .mode {
-      float:right;
-    }
-    .change {
-      cursor: pointer;
-      border: 1.5px solid #25632b;
-      border-radius: 40%;
-      width: 10px;
-      text-align: center;
-      padding: 20%;
-      
-      
-     
-      
-      
-    }
-    .dark{
-      background-color: #222;
-      color: #fffffd;
-      
-    }
 
-    
+ }
+
+ 
