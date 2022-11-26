@@ -78,7 +78,7 @@ p.contents {
       input[type=text] {
         border: 3px solid #509055;
         border-radius: 20px;
-        padding-bottom: 0.3%;
+        
       }
       
 
@@ -133,10 +133,10 @@ p.contents {
     .change {
       cursor: pointer;
       border: 1.5px solid #25632b;
-      border-radius: 20%;
+      border-radius: 40%;
       width: 10px;
       text-align: center;
-      padding: 30%;
+      padding: 20%;
       
       
      
