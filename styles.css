@@ -133,7 +133,7 @@ p.contents {
     .change {
       cursor: pointer;
       border: 1.5px solid #25632b;
-      border-radius: 60%;
+      border-radius: 40%;
       width: 20px;
       text-align: center;
       padding: 50%;
