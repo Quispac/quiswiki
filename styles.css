@@ -1,7 +1,7 @@
 .body{
   background: #fffffd;
-  padding: 3% 4% 3% 4%;
   text-align: center;
+  margin: auto;
 }
 
 
@@ -54,11 +54,6 @@ p.contents {
 }
 
 
-.rabbit {
-
-    color: #fffffd;
-}
-
 ::selection {
     color: #fffffd;
     background-color: #509055;
@@ -84,7 +79,7 @@ p.contents {
 
       p.wakanda {
         font-size:small
-
+        
         
       }
 
@@ -107,7 +102,62 @@ p.contents {
 
   .bms{
     border-color: #509055;
+    
 
  }
 
+
+ body{
+  padding-bottom: 2%;
+  text-align:center;
+  }
+  img{
+      height:140px;
+          width:140px;
+  }
+  h1{
+  color: #509055;
+  }
+  .mode {
+      float:right;
+      padding: 0.3%;
+  }
+  .change {
+      cursor: pointer;
+      border: 1.5px solid #1ba750;
+      border-radius: 40%;
+      width: 20px;
+      text-align: center;
+      padding: 7px;
+      margin-right: 12px;
+      
+  }
+  .dark{
+      background-color: #222;
+      color: #fffffd;
+  }
  
+  header {
+    
+      background-color:#4d4d4d;
+      color:#fffffd;
+      padding: 12px;
+      text-align:center;
+
+     
+      
+    
+  }
+
+.annen {
+
+  color: #4d4d4d;
+  
+}
+
+
+section {
+    padding:2% 2% 2% 2%;
+    
+ 
+}
