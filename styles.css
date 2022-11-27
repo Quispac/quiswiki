@@ -126,10 +126,12 @@ p.contents {
       cursor: pointer;
       border: 1.5px solid #1ba750;
       border-radius: 45%;
-      width: 20px;
-      text-align: center;
-      padding: 9px;
-      margin-right: 5px;
+      width: 20%;
+      text-align: justify;
+      padding: 10px;
+      padding-top: 6px;
+      
+    
       
       
       
@@ -146,6 +148,9 @@ p.contents {
       color:#fffffd;
       padding: 10px;
       text-align:center;
+      border-style:solid;
+      border-color: #4d4d4d;
+      
       
 
      
@@ -175,4 +180,14 @@ section {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+ 
 }
+
+.afffa{
+  position: absolute;
+
+  top: 25px;
+  right: 28px;
+}
+
+
