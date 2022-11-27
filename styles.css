@@ -1,7 +1,7 @@
 .body{
   background: #fffffd;
   text-align: center;
-  margin: auto;
+  
 }
 
 
@@ -96,7 +96,7 @@ p.contents {
          border-color: #509055;
       border-radius: 20px;
       padding: 0.3%;
-
+      
      }
 
 
@@ -128,8 +128,8 @@ p.contents {
       border-radius: 45%;
       width: 20%;
       text-align: justify;
-      padding: 10px;
-      padding-top: 7px;
+      padding: 12px;
+      padding-top: 9px;
       
     
       
@@ -165,7 +165,7 @@ p.contents {
 
 
 section {
-    padding:1% 1% 1% 1%;
+    padding:2% 2% 2% 2%;
     
  
 }
@@ -186,7 +186,6 @@ section {
   position: absolute;
 
   top: 25px;
-  right: 28px;
+  right: 21px;
 }
-
 
