@@ -17,52 +17,10 @@
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 </head>
-		<head>
 
-			<script language="JavaScript"> 
-				
-				var TRange=null;
-				function findString (str) {
-				 if (parseInt(navigator.appVersion)<4) return;
-				 var strFound;
-				 if (window.find) {
-				
-				  
-				  strFound=self.find(str);
-				  if (strFound && self.getSelection && !self.getSelection().anchorNode) {
-				   strFound=self.find(str)
-				  }
-				  if (!strFound) {
-				   strFound=self.find(str,0,1)
-				   while (self.find(str,0,1)) continue
-				  }
-				 }
-				 else if (navigator.appName.indexOf("Microsoft")!=-1) {
-				
-			
-				
-				  if (TRange!=null) {
-				   TRange.collapse(false)
-				   strFound=TRange.findText(str)
-				   if (strFound) TRange.select()
-				  }
-				  if (TRange==null || strFound==0) {
-				   TRange=self.document.body.createTextRange()
-				   strFound=TRange.findText(str)
-				   if (strFound) TRange.select()
-				  }
-				 }
-				 else if (navigator.appName=="Opera") {
-				  alert ("Opera browsers not supported, sorry...")
-				  return;
-				 }
-				 if (!strFound) alert ("This word '"+str+"' not found!")
-				 return;
-				}
-				
-			</script>
-
-		</head>
+<head>
+	<script src="script.js" defer></script>
+</head>
 
 
 
@@ -88,23 +46,6 @@
 
     <body class="body" bgcolor="#fffffd" text="#000000" > 
 
-		
-		
-		
-	<script language="JavaScript">
-	
-	$( ".change" ).on("click", function() {
-				if( $( "body" ).hasClass( "dark" )) {
-					$( "body" ).removeClass( "dark" );
-					$( ".change" ).text("🌙");
-				} else {
-					$( "body" ).addClass( "dark" );
-					$( ".change" ).text("☀️");
-				}
-			});
-		 </script>
-	
-	
 
 		<form align="right" name="f1" action="" onSubmit="if(this.t1.value!=null && this.t1.value!='') findString(this.t1.value);return false">
                         
