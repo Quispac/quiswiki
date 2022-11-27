@@ -120,16 +120,19 @@ p.contents {
   }
   .mode {
       float:right;
-      padding: 0.3%;
+      padding: 1%;
   }
   .change {
       cursor: pointer;
       border: 1.5px solid #1ba750;
-      border-radius: 40%;
+      border-radius: 45%;
       width: 20px;
       text-align: center;
-      padding: 7px;
-      margin-right: 12px;
+      padding: 9px;
+      margin-right: 5px;
+      
+      
+      
       
   }
   .dark{
@@ -141,8 +144,9 @@ p.contents {
     
       background-color:#4d4d4d;
       color:#fffffd;
-      padding: 12px;
+      padding: 10px;
       text-align:center;
+      
 
      
       
@@ -157,7 +161,7 @@ p.contents {
 
 
 section {
-    padding:2% 2% 2% 2%;
+    padding:1% 1% 1% 1%;
     
  
 }

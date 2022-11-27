@@ -44,13 +44,13 @@
 
 
                 
-	$( ".change" ).on("click", function() {
-        if( $( "body" ).hasClass( "dark" )) {
-            $( "body" ).removeClass( "dark" );
-            $( ".change" ).text("🌙");
+	$(".change").on("click", function() {
+        if( $("body").hasClass("dark")) {
+            $("body").removeClass("dark");
+            $(".change").text("🌙");
         } else {
-            $( "body" ).addClass( "dark" );
-            $( ".change" ).text("☀️");
+            $("body").addClass("dark");
+            $(".change").text("☀️");
         }
     });
 
