@@ -1,3 +1,10 @@
+html {
+  padding-bottom: 5px;
+  font-size: 14px;
+}
+  
+
+
 .body{
   background: #fffffd;
   text-align: center;
@@ -11,11 +18,12 @@
               text-align: left;
 }
 div ul{
+   
     border-style:groove;
     border-width: 3px;
-    width: 50%;
+    width: 590px;
     height: 50%;
-    margin:1% auto;
+    margin:0 auto;
     left: 1%;
     top: 55%;
     font-weight:normal;
@@ -25,6 +33,7 @@ div ul{
     text-align: left;
     
  }
+
 
 table {
 
@@ -94,22 +103,24 @@ p.contents {
      
      .ams {
          border-color: #509055;
-      border-radius: 50%;
-      padding: 7px;
-      padding-top: 8px;
+      border-radius: 45%;
+      padding: 5px;
+      padding-top: 5px;
+      float: left;
+      position: absolute;
+      top: 22px;
+      left:295px;
       
-      
-      
-
      
     }
       
-     
-
 
   .bms{
     border-color: #509055;
-
+    float: left;
+    position: absolute;
+    top: 25px;
+    left: 20px;
   }
 
  
@@ -137,12 +148,10 @@ p.contents {
       width: 20%;
       text-align: justify;
       padding: 12px;
-      padding-top: 9px;
+      padding-top: 10px;
+
       
-    
-      
-      
-      
+ 
       
   }
   .dark{
@@ -152,7 +161,7 @@ p.contents {
  
   header {
     
-      background-color:#4d4d4d;
+      background-color:#303030;
       color:#fffffd;
       padding: 10px;
       text-align:center;
@@ -167,13 +176,14 @@ p.contents {
 
 .annen {
 
-  color: #4d4d4d;
+  color: #303030;
   
 }
 
 
 section {
     padding:2% 2% 2% 2%;
+
     
  
 }
@@ -192,8 +202,29 @@ section {
 
 .afffa{
   position: absolute;
-
-  top: 25px;
-  right: 21px;
+  top: 28px;
+  right: 20px;
+  float: right;
 }
 
+
+.abundance {
+  float: right;
+
+  width: 280px;
+  height: 370px;
+
+}
+.amege{
+  
+  width: 270px;
+  height: 370px;
+}
+.kararname {
+  text-align: left; 
+}
+.bemewe {
+  float: center;
+  width: 576px;
+  height: 258px;
+}
