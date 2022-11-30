@@ -110,8 +110,7 @@ p.contents {
       position: absolute;
       top: 22px;
       left:295px;
-      
-     
+
     }
       
 
@@ -122,9 +121,6 @@ p.contents {
     top: 25px;
     left: 20px;
   }
-
- 
-
 
  body{
   padding-bottom: 1%;
@@ -149,10 +145,7 @@ p.contents {
       text-align: justify;
       padding: 12px;
       padding-top: 10px;
-
-      
- 
-      
+  
   }
   .dark{
       background-color: #222;
@@ -165,12 +158,6 @@ p.contents {
       color:#fffffd;
       padding: 10px;
       text-align:center;
-      
-      
-      
-
-     
-      
     
   }
 
@@ -184,10 +171,7 @@ p.contents {
 section {
     padding:2% 2% 2% 2%;
 
-    
- 
 }
-
 
 
 .hide {
@@ -212,14 +196,15 @@ section {
   float: right;
 
   width: 280px;
-  height: 370px;
+  height: 400px;
 
 }
 .amege{
   
-  width: 250px;
-  height: 370px;
+  width: 278px;
+  height: 392px;
 }
+
 .kararname {
   text-align: left; 
 }
@@ -228,3 +213,4 @@ section {
   width: 576px;
   height: 258px;
 }
+
