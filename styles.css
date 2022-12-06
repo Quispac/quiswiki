@@ -1,175 +1,183 @@
 html {
   padding-bottom: 5px;
   font-size: 14px;
+
 }
-  
 
 
-.body{
+
+.body {
   background: #fffffd;
   text-align: center;
-  
+
 }
 
 
 .chemical-element {
-              font-size: 30px ;
-              font-weight: bold;
-              text-align: left;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: left;
 }
-div ul{
-   
-    border-style:groove;
-    border-width: 3px;
-    width: 590px;
-    height: 50%;
-    margin:0 auto;
-    left: 1%;
-    top: 55%;
-    font-weight:normal;
-    list-style-type: circle;
-    list-style-type: none;
-    padding-left: 2%;
-    text-align: left;
-    
- }
+
+div ul {
+
+  border-style: groove;
+  border-width: 3px;
+  width: 520px;
+  height: 50%;
+  margin: 0 auto;
+  left: 1%;
+  top: 55%;
+  font-weight: normal;
+  list-style-type: circle;
+  list-style-type: none;
+  padding-left: 2%;
+  text-align: left;
+
+}
 
 
 table {
 
-    margin:0 auto;
+  margin: 0 auto;
 
-    left: 50%;
-    top: 57%;
-    color: black;
-    border-color: #222;
+  left: 50%;
+  top: 57%;
+  color: black;
+  border-color: #222;
 
 }
 
 p.CHEMİCAL-RESİSTANCE-TABLE {
-    margin:0 auto;
-    top: 50%;
-    left: 55%;
-    
-    
+  margin: 0 auto;
+  top: 50%;
+  left: 55%;
+  font-size: 28px;
+  font-weight: bold;
+
+
 
 }
 
 
 p.contents {
-      font-size: 30px;   
-      font-weight: bold;   
-        
+  font-size: 28px;
+  font-weight: bold;
+
 }
 
 
 ::selection {
-    color: #fffffd;
-    background-color: #509055;
-    }
+  color: #fffffd;
+  background-color: #509055;
+}
 
-    * {
-        
-        margin: 70;;
-        padding: 50;
-        box-sizing: border-box; 
-      }
-      
-      body {
-        background: #fffffd;
-      }
-      
-      input[type=text] {
-        border: 3px solid #509055;
-        border-radius: 20px;
-        
-      }
-      
+* {
 
-      p.wakanda {
-        font-size:small
-        
-        
-      }
+  margin: 70;
+  ;
+  padding: 50;
+  box-sizing: border-box;
+}
+
+body {
+  background: #fffffd;
+}
+
+input[type=text] {
+  border: 3px solid #509055;
+  border-radius: 20px;
+
+}
 
 
-     
-    .imece{
-     
-       width: 550px;
-       height: 300px;
-    }
-      
-     
-     .ams {
-         border-color: #509055;
-      border-radius: 45%;
-      padding: 5px;
-      padding-top: 5px;
-      float: left;
-      position: absolute;
-      top: 22px;
-      left:295px;
+p.wakanda {
+  font-size: small
+}
 
-    }
-      
 
-  .bms{
-    border-color: #509055;
-    float: left;
-    position: absolute;
-    top: 25px;
-    left: 20px;
-  }
 
- body{
+.imece {
+
+  width: 507px;
+  height: 270px;
+}
+
+
+.ams {
+  border-color: #509055;
+  border-radius: 45%;
+  padding: 5px;
+  padding-top: 5px;
+  float: left;
+  position: absolute;
+  top: 22px;
+  left: 295px;
+
+}
+
+
+.bms {
+  border-color: #509055;
+  float: left;
+  position: absolute;
+  top: 25px;
+  left: 20px;
+}
+
+body {
   padding-bottom: 1%;
-  text-align:center;
-  }
-  img{
-      height:140px;
-          width:140px;
-  }
-  h1{
+  text-align: center;
+}
+
+img {
+  height: 140px;
+  width: 140px;
+}
+
+h1 {
   color: #509055;
-  }
-  .mode {
-      float:right;
-      padding: 1%;
-  }
-  .change {
-      cursor: pointer;
-      border: 1.5px solid #1ba750;
-      border-radius: 45%;
-      width: 20%;
-      text-align: justify;
-      padding: 12px;
-      padding-top: 10px;
-  
-  }
-  .dark{
-      background-color: #222;
-      color: #fffffd;
-  }
- 
-  header {
-    
-      background-color:#303030;
-      color:#fffffd;
-      padding: 10px;
-      text-align:center;
-    
-  }
+}
+
+.mode {
+  float: right;
+  padding: 1%;
+}
+
+.change {
+  cursor: pointer;
+  border: 1.5px solid #1ba750;
+  border-radius: 45%;
+  width: 20%;
+  text-align: justify;
+  padding: 12px;
+  padding-top: 10px;
+
+}
+
+.dark {
+  background-color: #222;
+  color: #fffffd;
+}
+
+header {
+
+  background-color: #303030;
+  color: #fffffd;
+  padding: 10px;
+  text-align: center;
+
+}
 
 .annen {
 
   color: #303030;
-  
+
 }
 
 
 section {
-    padding:2% 2% 2% 2%;
+  padding: 2% 2% 2% 2%;
 
 }
 
@@ -181,10 +189,10 @@ section {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
- 
+
 }
 
-.afffa{
+.afffa {
   position: absolute;
   top: 28px;
   right: 20px;
@@ -195,22 +203,27 @@ section {
 .abundance {
   float: right;
 
-  width: 280px;
-  height: 400px;
+  width: 255px;
+  height: 345px;
 
 }
-.amege{
-  
-  width: 278px;
-  height: 392px;
+
+.amege {
+
+  width: 241px;
+  height: 340px;
 }
 
 .kararname {
-  text-align: left; 
-}
-.bemewe {
-  float: center;
-  width: 576px;
-  height: 258px;
+  text-align: left;
 }
 
+.bemewe {
+  float: center;
+  width: 520px;
+  height: 220px;
+}
+
+.takanaka {
+  text-align: center;
+}
