@@ -2,14 +2,14 @@
 
 
 
-<html lang="en">
+<html id="main" lang="en">
 
 <head>
 	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 	<title>Quiswiki</title>
 	<meta charset="utf-8">
 	<link rel="stylesheet" href="styles.css" <meta name="author" content="Cengizhan Deveci">
-	<meta name="viewport" content="width=550, initial-scale=1" />
+	<meta name="viewport" content="width=600, initial-scale=1" />
 	<meta name="description" content="Coding" </head>
 
 	<head>
@@ -26,28 +26,56 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js">
 	</script>
 
+<body>
 
 <body>
 	<header>
+<span>
+
+	
+	<div id="mySidebar" class="sidebar">
+		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+	<b>
+		<a href="">Settings</a>
+		<a href="">Communication</a>
+		<a href="">Link</a>
+		<a href="">About Me</a>
+	</b>
 		<div class="mode">
 			<span class="afffa"><span class="hide"> <span class="change">🌙</span></span></span>
+					
 		</div>
+	</div>
+</span>
 
-		<span class="hide">
+
+
+<span id="main"> 
+	  <div id="main">
+	  <button class="openbtn" onclick="openNav()"> &#9776; </button>
+	
+	  </div>
+</span>
+
+
+<form align="left" name="f1" action="" onSubmit="if(this.t1.value!=null && this.t1.value!='') findString(this.t1.value);return false">
+
+			<input class="bms" type="text" name=t1 value="" size="34">
+			<input class="ams" type="submit" name=b1 value="🔎" >
+		</form>
+		
+	
+
+		<span  class="hide">
 			<div>
-				<h1 class="annen">&nbsp;</h1>
+				<h1 class="annen">&nbsp;</h1> 
 			</div>
 		</span>
 
-		<form align="left" name="f1" action=""
-			onSubmit="if(this.t1.value!=null && this.t1.value!='') findString(this.t1.value);return false">
-
-			<input class="bms" type="text" name=t1 value="" size="34">
-			<input class="ams" type="submit" name=b1 value="Search">&nbsp;&nbsp;&nbsp;&nbsp;
-		</form>
 
 	</header>
 </body>
+
 <br>
 <br>
 
@@ -55,11 +83,8 @@
 
 <body class="body" bgcolor="#fffffd" text="#000000">
 
-
-
-
-
-	<section>
+	
+	<section >
 		<p>
 
 		<h2 class="chemical-element"><strong><i>&nbsp;Chemical Element</i></strong></h2>
@@ -71,7 +96,7 @@
 
 
 		<p align="center">
-			<!--left, right, center, justify -->
+			
 			A chemical element is a species of atoms that have a given number of protons in their nuclei, including the
 			pure substance consisting only of that species.
 			[1] Unlike chemical compounds, chemical elements cannot be broken down into simpler substances by any
@@ -988,7 +1013,7 @@
 <br><br><br><br><br><br>
 
 
-<p align="center">
+<p id="jiujun" align="center">
 
 
 	<h8>Hi!<br>
@@ -1003,7 +1028,6 @@
 </p>
 
 
-
 <span class="hide">
 
 	<hr width="95%" color="#509055" size="3" align="center">
@@ -1015,4 +1039,5 @@
 
 	</body>
 
-</html>
+</body>
+
