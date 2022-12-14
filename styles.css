@@ -2,9 +2,10 @@
 
 html {
   padding-bottom: 5px;
-  padding-right: 1%;
+  padding-right: 2%;
   font-size: 14px;
   padding-top: 0%;
+  
 
 }
 
@@ -27,7 +28,7 @@ div ul {
 
   border-style: groove;
   border-width: 3px;
-  width: 520px;
+  width: 488px;
   height: 50%;
   margin: 0 auto;
   left: 1%;
@@ -36,7 +37,9 @@ div ul {
   list-style-type: circle;
   list-style-type: none;
   padding-left: 2%;
+  padding-right: 2%;
   text-align: left;
+  
 
 }
 
@@ -44,10 +47,9 @@ div ul {
 table {
 
   margin: 0 auto;
-
   left: 50%;
   top: 57%;
-  color: black;
+  color: #191a19;
   border-color: #222;
 
 }
@@ -58,6 +60,7 @@ p.CHEMİCAL-RESİSTANCE-TABLE {
   left: 55%;
   font-size: 28px;
   font-weight: bold;
+  
 
 
 
@@ -72,7 +75,7 @@ p.contents {
 
 
 ::selection {
-  color: #fffffd;
+  color: #191a19;
   background-color: #509055;
 }
 
@@ -145,7 +148,8 @@ h1 {
 }
 
 .mode {
-  float: left;
+  float: center;
+  float: bottom;
   padding: 1%;
   
 }
@@ -181,7 +185,7 @@ header {
   position: fixed;
   width: 100%; 
   height: 75px;
-  background: #303030;
+  background: #1f1f1f;
   z-index: 100; 
   top: 0;
   left: 0;
@@ -199,7 +203,7 @@ header {
 
 
 section {
-  padding: 8% 0% 1% 1%;
+  padding: 8% 2% 1% 2%;
 
 }
 
@@ -215,10 +219,12 @@ section {
 }
 
 .afffa {
+  position:absolute;
+  right: 50px;
+  left: 50px;
+  top: 395px;
  
-  position: absolute; 
-  top: 300px;
-  left: 80px;
+ 
 }
 
 
@@ -242,8 +248,8 @@ section {
 
 .bemewe {
   float: center;
-  width: 520px;
-  height: 220px;
+  width: 500px;
+  height: 230px;
 }
 
 .takanaka {
@@ -259,7 +265,7 @@ section {
   z-index: 1; 
   top: 0;
   left: 0;
-  background-color: #242424; 
+  background-color: #191a19; 
   overflow-x: hidden; 
   padding-top: 50px; 
   transition: 0.5s; 
@@ -269,10 +275,12 @@ section {
 .sidebar a {
   padding: 10px 8px 8px 8px;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 15px;
   color: #FAF8F1;
   display: block;
   transition: 0.3s;
+  padding-bottom: 20%;
+ 
 }
 
 
