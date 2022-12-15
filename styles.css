@@ -1,7 +1,7 @@
 
 
 html {
-  padding-bottom: 5px;
+  padding-bottom: 0% !important;
   padding-right: 2%;
   font-size: 14px;
   padding-top: 0%;
@@ -106,11 +106,16 @@ p.wakanda {
 
 
 .imece {
-
-  width: 507px;
-  height: 270px;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
 }
-
+.cambardak {
+  margin: 0 auto;
+  text-align: center;
+  width: 465px;
+  height: 248px;
+}
 
 .ams {
   border-color: #509055;
@@ -139,7 +144,7 @@ p.wakanda {
 }
 
 body {
-  padding-bottom: 1%;
+  padding-bottom: 0.5%;
   text-align: center;
 }
 
@@ -253,8 +258,20 @@ section {
 
 .bemewe {
   float: center;
+  width: 100%;
+  height: 100%;
+  margin:0 auto  ;
+ 
+  }
+ 
+
+.lemonhaze {
+  margin: 0 auto;
+  text-align: center;
   width: 500px;
   height: 230px;
+
+ 
 }
 
 .takanaka {
