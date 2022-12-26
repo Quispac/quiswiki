@@ -82,6 +82,7 @@ table {
   left: 50%;
   top: 57%;
   color: #191a19;
+  border-style: double;
   border-color: #222;
 
 }
@@ -136,9 +137,7 @@ p.wakanda {
 
 
 .imece {
-  border:#509055;
-    border-style: solid;
-    border-width: 5px;
+  
   margin: 0 auto;
   width: 100%;
   height: 100%;
@@ -280,7 +279,9 @@ section {
 }
 
 .amege {
-  
+  border:#509055;
+    border-style: double;
+    border-width: 5px;
 
   width: 241px;
   height: 340px;
@@ -291,9 +292,7 @@ section {
 }
 
 .bemewe {
-  border:#509055;
-    border-style: solid;
-    border-width: 5px;
+  
   float: center;
   width: 100%;
   height: 100%;
